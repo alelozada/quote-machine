@@ -1,0 +1,48 @@
+.card {
+  max-width: 500px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.card div:first-child{
+  font-weight: bolder;
+}
+
+.card div:first-child>:before{
+  font-family: FontAwesome;
+  content: "\f10d ";
+  padding-right: 10px;
+  font-size: 34px;
+}
+
+.card div:nth-child(2){
+  text-align: right;
+  font-weight: bolder;
+}
+
+.card div:last-child{
+  text-align: left;
+  padding-left: 20px;
+}
+
+.card button {
+  font-size: 18px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+}
+
+.card button:hover {
+  cursor: pointer;
+}
+
+.card button:active {
+  width: 52px;
+  height: 52px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  transition: all;
+}
