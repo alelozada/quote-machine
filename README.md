@@ -8,6 +8,10 @@
 
 > Program to generate random quotes
 
+## Website
+
+🌐 https://quote-machine-alelozada.netlify.app/
+
 ## Install
 
 ```sh
